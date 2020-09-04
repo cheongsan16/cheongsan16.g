@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
-# Hero Section
+# Hero Section 가장 앞에 타이틀
 
 hero:
   hero-title: Hi! I’m <br> Haeun <br> 반가워요!
@@ -48,14 +48,14 @@ social:
 
 
 #-------------------------------
-# About (Section and Page)
+# About (Section and Page) 
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  신하은
+  
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: 더보기
 
 
 # About Page
@@ -97,7 +97,7 @@ skills-title: Skills
 skills:
 - {name: Python, color: '#2872e0', value: '60%'}
 - {name: Premiere Pro, color: '#9473e6', value: '70%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: After Effects, color: '#bdecf6', value: '10%'}
 - {name: Web App, color: '#ffbcaa', value: '70%'}
 
 
@@ -125,26 +125,26 @@ skills:
 #-------------------------------
 # Services Section
 
-#services-title: Services
-#services:
-#- {
-#    name: UI Design,
-#    icon: ti-palette,
-#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-#    active: # Add true to select section
-#  }
-#- {
-#    name: UX Design,
-#    icon: ti-vector,
-#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-#    active: true # Add true to select section
-#  }
-#- {
-#    name: Interaction Design,
-#    icon: ti-panel,
-#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-#    active: # Add true to select section
-#  }
+services-title: Haeun's Pick
+services:
+- {
+    name: 롱테이크 -티키틱,
+    icon: ti-palette,
+    description: '우리는 숨기곤해, 언제나 내 다짐은, 변해가지 꿈은 날 두고, 빠르게, 도망가네, 한눈팔면 막다른 길일까, 언제나 불안은 날, 앞서가니까 쉬고싶어도, 한 걸음 더',
+    active: # Add true to select section
+  }
+- {
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
+  }
+- {
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
 
 
 
@@ -154,7 +154,7 @@ skills:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "https://www.youtube.com/channel/UC64A4aw99CRpLf2-vEXsGnQ?"
+    url: "#"
     
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
@@ -172,16 +172,16 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "PYTHON",
+    type : "python"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "VIDEOS",
+    type : "video"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "MY LIFE",
+    type : "life"
   }
 
 portfolio-items:
@@ -236,61 +236,61 @@ portfolio-items:
 
 
 #-------------------------------
-# Testimonials Section
+# Testimonials Section 
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#testimonials-items:
+#  - name: "ppap"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation : "CEO, Funder"
+#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
+#client-slider-items:
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
 
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-title: 문의
+contact-email: cheongsan16@naver.com
