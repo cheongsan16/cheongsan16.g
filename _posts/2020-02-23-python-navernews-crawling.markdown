@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Amazon increase income 1.5 Million
+title:  python으로 날짜별 네이버뉴스 내용 가져오기
 date:   2020-02-23 07:00:55 +0300
 image:  /assets/images/blog/post-5.jpg
 author: uixgeek
