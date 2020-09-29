@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  python으로 날짜별 네이버뉴스 내용 가져오기
+title:  <쇼킹스쿨> 영상 제작기
 date:   2019-08-25 18:30:55 +0300
 image:  /assets/images/blog/post-5.jpg
 author: Haeun
