@@ -94,7 +94,7 @@ team:
 skills-title: Skills
 skills:
 - {name: Python, color: '#2872e0', value: '75%'}
-- {name: Premiere Pro, color: '#9473e6', value: '55%'}-
+- {name: Premiere Pro, color: '#9473e6', value: '55%'}
 - {name: After Effects, color: '#bdecf6', value: '10%'}
 - {name: Java, color: '#ffbcaa', value: '0%'}
 
