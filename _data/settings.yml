@@ -128,7 +128,7 @@ services:
 - {
     name: 우정리노트 -자빱TV,
     icon: ti-palette,
-    description: ,
+    description: '여자들끼리 잘 먹고 잘 사는 힐링 콘텐츠~',
     active: # Add true to select section
   }
 - {
