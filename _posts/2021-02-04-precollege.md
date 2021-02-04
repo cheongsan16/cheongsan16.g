@@ -31,7 +31,6 @@ public class frist {
         scanner.close();
         double m_height = (height * 0.01);
         double h = (m_height * m_height);
-//        System.out.println(h);
         System.out.println(String.format("%.2f", weight/h));
     }
 }
