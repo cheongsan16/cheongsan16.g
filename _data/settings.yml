@@ -94,9 +94,9 @@ team:
 skills-title: Skills
 skills:
 - {name: Python, color: '#2872e0', value: '75%'}
+- {name: Java, color: '#ffbcaa', value: '5%'}
 - {name: Premiere Pro, color: '#9473e6', value: '55%'}
 - {name: After Effects, color: '#bdecf6', value: '10%'}
-- {name: Java, color: '#ffbcaa', value: '0%'}
 
 
 #-------------------------------
@@ -174,12 +174,12 @@ portfolio-label:
     type : "python"
   }
 - {
-    title : "VIDEOS",
-    type : "video"
+    title : "JAVA",
+    type : "java"
   }
 - {
-    title : "MY LIFE",
-    type : "life"
+    title : "ATHERS",
+    type : "athers"
   }
 
 portfolio-items:
