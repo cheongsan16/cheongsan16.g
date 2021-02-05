@@ -47,6 +47,7 @@ Scanner, 산술연산자를 사용한 아주 간단한 코드
 스타일에 따라 두 가지 형태로 만들었다.<br>
 
 1. java.util.Arrays 클래스 사용
+
 ```
 import java.util.Arrays;
 
@@ -64,6 +65,7 @@ public class second {
 ```
 
 배열 검색하는 중 java.util.Arrays 클래스를 발견했고, 바로 사용해보았다.<br>
+
 ```
 2단 : [2, 4, 6, 8, 10, 12, 14, 16, 18]
 3단 : [3, 6, 9, 12, 15, 18, 21, 24, 27]
@@ -76,6 +78,7 @@ public class second {
 ```
 
 2. for문만 사용한.. 간단한 코드 (근데 이제 모양새를 곁들인)
+
 ```
 public class frist {
 	public static void main(String[] args) {
@@ -90,6 +93,7 @@ public class frist {
 ```
 
 별 거 없는.. (얘가 먼저여야 했다..)
+
 ```
 2단
 2 x 1 = 2
@@ -120,6 +124,7 @@ public class frist {
 9 x 8 = 72
 9 x 9 = 81
 ```
+
 그러나 결과는 대단해보이는
 
 **세번째 :**
