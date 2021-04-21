@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  지역별 시기별 대표질병 웹서비스
+title:  Factory Method Pattern 코드 설명
 date:   2021-04-22 01:40:29 +0300
-image:  /assets/images/blog/post-2.jpg
+image:  /assets/images/blog/post-4.jpg
 author: Haeun
 tags:   java
 ---
@@ -105,7 +105,7 @@ create 함수 호출 -> 추상 클래스의 create를 거쳐 구현된 함수를
 그렇게 9번째까지 넘버링을 했는데 어느 순간 이상함을 느낌.<br>
 IDcardfactory에서 Factory의 createProduct 함수를 구현하는 부분에서 아직 IDcard클래스는 근처도 안갔는데 갑자기 그 클래스의 변수를 매개변수로 받는 거임???<br>
 잘 가다가(그런 것 같았는데) 갑자기 아직 정의도 안된 변수를 데려가야겠다고 하니.. 당황할 수밖에<br>
-그때가 밤 12시였기 때문에 아무리 들여다봐도 이유를 알 수 없어서 덮고 자러갔다.<br>
+그때가 밤 12시였기 때문에 아무리 들여다봐도 이유를 알 수 없어서 덮고 자러갔다.
 <다음날><br>
 원래 하던 일을 덮어두면 (무의식적으로 계속 그걸 생각하니 때문이라던데) 새롭게 보이는 게 있는 법.<br>
 그제서야 return new IDCard(owner); (<- IDcardfactory 클래스의 createProduct 함수의 리턴) 얘가 매개변수를 가지고 있다는 걸 발견했다.<br>
@@ -122,7 +122,7 @@ return에 new가 들어가는 것조차 전부 수상해서 new를 쓰는 경우
 ★Main에 근데 잘모르겄네? 해둔 것에 대한 답 (card1이 왜 IDCard형? 인지를 모른다는 말)<br>
 저걸 왜 몰랐을까? 하고 들여다보다 알게 됨.<br>
 
-순서8에서 IDcard의 getOwner함수를 호출하여 IDcard의 클래스 변수 this.owner를 return받음. IDcard의 클래스변수가 Vector로 어떤 작용을 받은 결과값이 p로 return받고 그 p가 곧 card1이기 때문이다!<br>
+순서8에서 IDcard의 getOwner함수를 호출하여 IDcard의 클래스 변수 this.owner를 return받음. IDcard의 클래스변수가 Vector로 어떤 작용을 받은 결과값이 p로 return받고 그 p가 곧 card1이기 때문이다!
 
 **후기**
 
@@ -135,8 +135,8 @@ Factory Method Pattern 자체가 어렵다고 느껴지진 않았다. 오히려 
 여하튼! Factory Method Pattern 코드에 대한 설명달기 였습니다 _-_<br>
 
 
-
-
+<br>
+<br>
 <br>
 + 근황이 궁금하신 것 같아.. (?)<br>
 초등학생은 아니지만 단 두 과목, 중간고사 첫 날에 모든 시험이 끝나버린 대학생은 집에서 과제하면서 노는 중입니다<br>
