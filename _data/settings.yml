@@ -59,33 +59,33 @@ blurb-btn-name: 더보기
 # About Page
 
 # Work Process Section
-work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# work-process:
+#   - title : "Research and Plan"
+#     icon : "assets/images/icons/plan.png"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title : "Design and Develop"
+#     icon : "assets/images/icons/design.png"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title : "Deliver"
+#     icon : "assets/images/icons/print.png"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
-# My Team Section
-team:
- - title : "Jack Schenziwe"
-   image : "assets/images/team/member-1.png"
-   designation : "Project Manager"
+# # My Team Section
+# team:
+#  - title : "Jack Schenziwe"
+#    image : "assets/images/team/member-1.png"
+#    designation : "Project Manager"
     
- - title : "Julias Carlie"
-   image : "assets/images/team/member-2.png"
-   designation : "Web Developer"
+#  - title : "Julias Carlie"
+#    image : "assets/images/team/member-2.png"
+#    designation : "Web Developer"
     
- - title : "John Doe"
-   image : "assets/images/team/member-3.png"
-   designation : "Designer"
+#  - title : "John Doe"
+#    image : "assets/images/team/member-3.png"
+#    designation : "Designer"
 
 
 #-------------------------------
@@ -94,55 +94,55 @@ team:
 skills-title: Skills
 skills:
 - {name: Python, color: '#2872e0', value: '75%'}
-- {name: Java, color: '#ffbcaa', value: '5%'}
-- {name: Premiere Pro, color: '#9473e6', value: '55%'}
-- {name: After Effects, color: '#bdecf6', value: '10%'}
+- {name: Java, color: '#ffbcaa', value: '35%'}
+- {name: ML, color: '#9473e6', value: '5%'}
+- {name: -, color: '#bdecf6', value: '0%'}
 
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
-experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+# experience-title: Experience
+# experience:
+# - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+# - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+# - {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
 
 
 #-------------------------------
 # Education Section
 
-education-title: Education
-education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+# education-title: Education
+# education:
+# - {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+# - {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+# - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+# - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 
 #-------------------------------
 # Services Section
 
-services-title: My Pick
-services:
-- {
-    name: 우정리노트 -자빱TV,
-    icon: ti-palette,
-    description: '여자들끼리 잘 먹고 잘 사는 힐링 콘텐츠~',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
+# services-title: My Pick
+# services:
+# - {
+#     name: 우정리노트 -자빱TV,
+#     icon: ti-palette,
+#     description: '여자들끼리 잘 먹고 잘 사는 힐링 콘텐츠~',
+#     active: # Add true to select section
+#   }
+# - {
+#     name: UX Design,
+#     icon: ti-vector,
+#     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#     active: true # Add true to select section
+#   }
+# - {
+#     name: Interaction Design,
+#     icon: ti-panel,
+#     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#     active: # Add true to select section
+#   }
 
 
 
@@ -236,56 +236,56 @@ portfolio-items:
 #-------------------------------
 # Testimonials Section 
 
-testimonials-items:
- - name: "ppap"
-   image: "assets/images/testimonial/client-1.png"
-   designation : "CEO, Funder"
-   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+# testimonials-items:
+#  - name: "ppap"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation : "CEO, Funder"
+#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
- - name: "Jesica Gomez"
-   image: "assets/images/testimonial/client-1.png"
-   designation: "CEO, Funder"
-   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
- - name: "Jesica Gomez"
-   image: "assets/images/testimonial/client-1.png"
-   designation: "CEO, Funder"
-   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
- - logo: "assets/images/clients-logo/client-logo-1.png"
-   url: "#"
+# client-slider-items:
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-2.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-3.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-4.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-5.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-1.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-2.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-3.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-4.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
     
- - logo: "assets/images/clients-logo/client-logo-5.png"
-   url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
 
 #-------------------------------
 # Contact Section
