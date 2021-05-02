@@ -23,10 +23,9 @@ public class Node {
 	public int data; //데이터
 	public Node next; //포인터
 
-	public Node(int data) { //생성자 - 
+	public Node(int data) { //생성자 - 매개변수를 클래스변수로 저장
 		this.data = data;
 	}
-
 	public void print() {
 		System.out.print("{" + data + "}");
 	}
@@ -41,8 +40,9 @@ import java.util.Iterator;
 
 public class LinkedList {
 	private Node head;
-
-	public LinkedList(){ //생성자
+	
+	//생성자 - 
+	public LinkedList(){
 		head = null;
 	}
 	
@@ -50,13 +50,16 @@ public class LinkedList {
 	public boolean isEmpty(){
 		return head == null; //-> T or F
 	}
-	//
+
+	//?
 	public Node get(int index) {
 	    Node node = head;
 	    for (int i = 0; i < index; i++)
 	        node = node.next;
 	    return node;
 	}
+	
+	//
 	public void addFirst(int value){
 		Node link = new Node(value);
 		link.next = head;		//새로 추가하는 노드의 next를 앞 노드로 지정
