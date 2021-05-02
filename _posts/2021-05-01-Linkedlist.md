@@ -59,7 +59,7 @@ public class LinkedList {
 	    return node;
 	}
 	
-	//
+	//? 추가
 	public void addFirst(int value){
 		Node link = new Node(value);
 		link.next = head;		//새로 추가하는 노드의 next를 앞 노드로 지정
@@ -68,7 +68,7 @@ public class LinkedList {
 	public void addLast(int value){
 		Node link = new Node(value);
 
-		//	마지막까지 보내는 구문
+		//마지막까지 보내는 구문
 		Node tmpLink = head;
 		Node lastLink = null;
 		while(tmpLink != null) {
